@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Playerclass">
+      <UniqueIdentifier>{69b9dc64-d81c-42a7-93b0-c168cc39a960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2290323f-7703-4afa-910e-8b8d1a7142f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monsterclass">
+      <UniqueIdentifier>{54fcc955-70da-490a-80b7-a5eae46bd024}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player.cpp">
+      <Filter>Playerclass</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="warrior.cpp">
+      <Filter>Playerclass</Filter>
+    </ClCompile>
+    <ClCompile Include="magician.cpp">
+      <Filter>Playerclass</Filter>
+    </ClCompile>
+    <ClCompile Include="thief.cpp">
+      <Filter>Playerclass</Filter>
+    </ClCompile>
+    <ClCompile Include="archer.cpp">
+      <Filter>Playerclass</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>Monsterclass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h">
+      <Filter>Playerclass</Filter>
+    </ClInclude>
+    <ClInclude Include="warrior.h">
+      <Filter>Playerclass</Filter>
+    </ClInclude>
+    <ClInclude Include="magician.h">
+      <Filter>Playerclass</Filter>
+    </ClInclude>
+    <ClInclude Include="thief.h">
+      <Filter>Playerclass</Filter>
+    </ClInclude>
+    <ClInclude Include="archer.h">
+      <Filter>Playerclass</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>Monsterclass</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
